@@ -1,0 +1,108 @@
+
+# 📊 Sales Data Analysis – Excel Assignment
+
+## 📌 Dataset Information
+
+* **Dataset Name:** Sales Dataset
+* **Source:** Kaggle
+* **File Format:** CSV
+* **Tool Used:** Microsoft Excel
+* **Table Name Created:** `Sales_Data`
+
+## 🔎 Data Preparation
+
+* The dataset was imported into Microsoft Excel.
+* The data range was converted into a structured **Excel Table** using `Ctrl + T`.
+* The table was renamed as **Sales_Data** for better reference in formulas.
+* Column formatting and headers were verified for consistency.
+
+---
+
+## 📊 Data Analysis Performed
+
+Analysis was conducted on the **Sales_Amount** column.
+
+### 1️⃣ Total Sales
+
+Formula Used:
+
+```excel
+=SUM(Sales_Data[Sales_Amount])
+```
+
+This calculates the total revenue generated from all sales transactions.
+
+---
+
+### 2️⃣ Minimum Sales Value
+
+```excel
+=MIN(Sales_Data[Sales_Amount])
+```
+
+Identifies the lowest recorded sales transaction.
+
+---
+
+### 3️⃣ Maximum Sales Value
+
+```excel
+=MAX(Sales_Data[Sales_Amount])
+```
+
+Identifies the highest recorded sales transaction.
+
+---
+
+### 4️⃣ Average Sales Value
+
+```excel
+=AVERAGE(Sales_Data[Sales_Amount])
+```
+
+Determines the average revenue per transaction.
+
+---
+
+### 5️⃣ Sales Classification (High / Low)
+
+A new calculated column **Sales_Level** was created using:
+
+```excel
+=IF([@Sales_Amount] > 50, "High", "Low")
+```
+
+* Sales greater than 50 → **High**
+* Sales 50 or below → **Low**
+
+This classification helps segment transactions based on performance level.
+
+---
+
+### 6️⃣ Count of Numeric Records
+
+```excel
+=COUNT(Sales_Data[Sales_Amount])
+```
+
+Counts the total number of valid numeric sales entries in the dataset.
+
+---
+
+## 📌 Conclusion
+
+This analysis demonstrates the use of Excel functions such as **SUM, MIN, MAX, AVERAGE, IF, and COUNT** to perform basic statistical and logical operations on structured data.
+
+The dataset was successfully:
+
+* Imported and structured
+* Converted into a formal Excel Table
+* Analyzed using built-in Excel functions
+* Enhanced with a classification column for better insights
+
+This assignment highlights foundational Excel data analysis skills essential for business analytics and reporting.
+
+
+
+Tell me 👍
+
