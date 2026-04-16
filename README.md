@@ -1,7 +1,7 @@
 
-# 📊 Sales Data Analysis – Excel Assignment
+Sales Data Analysis – Excel Assignment
 
-## 📌 Dataset Information
+Dataset Information
 
 * **Dataset Name:** Sales Dataset
 * **Source:** Kaggle
@@ -9,20 +9,18 @@
 * **Tool Used:** Microsoft Excel
 * **Table Name Created:** `Sales_Data`
 
-## 🔎 Data Preparation
+Data Preparation
 
 * The dataset was imported into Microsoft Excel.
 * The data range was converted into a structured **Excel Table** using `Ctrl + T`.
 * The table was renamed as **Sales_Data** for better reference in formulas.
 * Column formatting and headers were verified for consistency.
 
----
-
-## 📊 Data Analysis Performed
+Data Analysis Performed
 
 Analysis was conducted on the **Sales_Amount** column.
 
-### 1️⃣ Total Sales
+Total Sales
 
 Formula Used:
 
@@ -34,7 +32,7 @@ This calculates the total revenue generated from all sales transactions.
 
 ---
 
-### 2️⃣ Minimum Sales Value
+Minimum Sales Value
 
 ```excel
 =MIN(Sales_Data[Sales_Amount])
@@ -44,7 +42,7 @@ Identifies the lowest recorded sales transaction.
 
 ---
 
-### 3️⃣ Maximum Sales Value
+Maximum Sales Value
 
 ```excel
 =MAX(Sales_Data[Sales_Amount])
@@ -53,8 +51,7 @@ Identifies the lowest recorded sales transaction.
 Identifies the highest recorded sales transaction.
 
 ---
-
-### 4️⃣ Average Sales Value
+Average Sales Value
 
 ```excel
 =AVERAGE(Sales_Data[Sales_Amount])
@@ -64,7 +61,7 @@ Determines the average revenue per transaction.
 
 ---
 
-### 5️⃣ Sales Classification (High / Low)
+Sales Classification (High / Low)
 
 A new calculated column **Sales_Level** was created using:
 
@@ -79,7 +76,7 @@ This classification helps segment transactions based on performance level.
 
 ---
 
-### 6️⃣ Count of Numeric Records
+Count of Numeric Records
 
 ```excel
 =COUNT(Sales_Data[Sales_Amount])
@@ -89,7 +86,7 @@ Counts the total number of valid numeric sales entries in the dataset.
 
 ---
 
-## 📌 Conclusion
+Conclusion
 
 This analysis demonstrates the use of Excel functions such as **SUM, MIN, MAX, AVERAGE, IF, and COUNT** to perform basic statistical and logical operations on structured data.
 
@@ -100,9 +97,5 @@ The dataset was successfully:
 * Analyzed using built-in Excel functions
 * Enhanced with a classification column for better insights
 
-This assignment highlights foundational Excel data analysis skills essential for business analytics and reporting.
-
-
-
-Tell me 👍
+This assignment highlights foundational Excel data analysis skills essential for business analytics and reportin
 
